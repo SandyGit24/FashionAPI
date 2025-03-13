@@ -55,7 +55,7 @@ class FashionItemViewSet(viewsets.ModelViewSet):
         serializer.save()
 
     def perform_destroy(self, instance):
-        """Ensures the destroy method properly deletes records."""
+
         instance.delete()
 
     def get_queryset(self):

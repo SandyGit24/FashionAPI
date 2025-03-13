@@ -61,7 +61,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://127.0.0.1:8000",  # If you're using https
     # Add any other origins you want to allow
 ]
-
+ 
 ROOT_URLCONF = 'fashion_project.urls'
 
 TEMPLATES = [
