@@ -85,13 +85,24 @@ WSGI_APPLICATION = 'fashion_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'fashionfolksdb',
+#        'USER': 'admin',
+#        'PASSWORD': 'Sammy&Sandy15',
+#        'HOST': 'fashiondb.c8cu0er8xtnu.us-east-1.rds.amazonaws.com',
+#        'PORT': '3306',
+ #   }
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'fashionfolksdb',
+        'NAME': 'fashiondbapilocal',
         'USER': 'admin',
         'PASSWORD': 'Sammy&Sandy15',
-        'HOST': 'fashiondb.c8cu0er8xtnu.us-east-1.rds.amazonaws.com',
+        'HOST': 'fashiondbapilocal.csjgmqo8kwy9.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
